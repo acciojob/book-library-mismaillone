@@ -1,46 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-/*  your css code here. If applicable */
-body{
-	background:#f8f8f8;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background: #f8f8f8;
+    font-family: "Poppins", sans-serif;
 }
-h1{
-	text-align:center;
-	font-family: "Poppins", serif;
-  font-weight: 800;
-  font-style: normal;
+
+h1 {
+    text-align: center;
+    font-weight: 800;
 }
-h2{
-	font-family: "Poppins", serif;
-  font-weight: 400;
-  font-style: normal;
+
+h2 {
+    font-weight: 400;
+    text-align: center;
 }
-img{
-	display:block;
-	margin:auto;
+
+img {
+    display: block;
+    margin: auto;
+    width: 150px; /* Fixed size for consistency */
+    height: auto;
 }
-.book{
+
+/* Book Library Styling */
+.book-library {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.lib{
-	width:100%;
-	height:45px;
-	background:#ffffff;
-	margin-top:30px;
-	margin-bottom:30px;
-	
+
+/* Individual Book Styling */
+.book {
+    width: 250px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-.price-block{
-	width:100%;
-	height:50px;
-	background: #2ecc71 !important;
-	border:none;
-	color:white;
-	  font-family: "Poppins", serif;
-  font-weight: 600;
-  font-style: normal;
+
+/* Price Button Styling */
+.price-block {
+    width: 100%;
+    height: 50px;
+    background: #2ecc71 !important;
+    border: none;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
 }
+
+.price-block:hover {
+    background: #27ae60;
+}
+
+/* Author Styling */
 .author {
-	font-family: "Poppins", serif;
-  font-weight: 200;
-  font-style: normal;
-	color:#777777;
+    font-weight: 200;
+    color: #777777;
 }
