@@ -1,67 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
 body {
-    background: #f8f8f8;
-    font-family: "Poppins", sans-serif;
+	background-color: #f8f8f8;
+	font-family: sans-serif;
 }
 
-h1 {
-    text-align: center;
-    font-weight: 800;
+
+.library {
+	background-color: #ffffff;
+	width: 100%;
+	height: 25px;
 }
 
-h2 {
-    font-weight: 400;
-    text-align: center;
-}
 
-img {
-    display: block;
-    margin: auto;
-    width: 150px; /* Fixed size for consistency */
-    height: auto;
-}
-
-/* Book Library Styling */
-.book-library {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    background: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Individual Book Styling */
-.book {
-    width: 250px;
-    background: #fff;
-    padding: 15px;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-/* Price Button Styling */
-.price-block {
-    width: 100%;
-    height: 50px;
-    background: #2ecc71 !important;
-    border: none;
-    color: white;
-    font-weight: 600;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-.price-block:hover {
-    background: #27ae60;
-}
-
-/* Author Styling */
 .author {
-    font-weight: 200;
-    color: #777777;
+	color: #777777;
+}
+
+.price-block {
+	background-color: #2ecc71;
 }
