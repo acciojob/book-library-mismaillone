@@ -29,7 +29,8 @@ html{
 .book p{
 	text-align:left;
 	padding:1px 20px;	
-	color:#777777;
+	color:rgb(119, 119, 119);
+	background:rgb(255, 255, 255);
 }
 .price-block{
 	width:96%;
